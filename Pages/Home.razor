@@ -1,0 +1,727 @@
+﻿@page "/"
+
+<PageTitle>Pablo Coral - Portfolio</PageTitle>
+
+<div class="portfolio-container">
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <img src="../images/profile1.JPG" alt="Pablo Coral" class="profile-image"/>
+            <h1 class="hero-name">Pablo Francisco Coral</h1>
+            <p class="hero-tagline">Aerospace Engineering | Piano Performance</p>
+            <p class="hero-subtitle">University of Florida | GPA: 3.63 | Graduating May 2027</p>
+            <div class="hero-links">
+                <a href="https://www.linkedin.com/in/pablo-coral/" target="_blank" class="hero-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                    LinkedIn
+                </a>
+                <a href="mailto:coral.pablo@ufl.edu" class="hero-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    coral.pablo@ufl.edu
+                </a>
+                <a href="tel:9045819028" class="hero-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    (904) 581-9028
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section">
+        <div class="container">
+            <h2 class="section-title">Hello!</h2>
+            <div class="about-content">
+                <p>
+                    My name is Pablo. I'm a 4th year dual-degree student pursuing Aerospace Engineering and Piano Performance at the University of Florida. 
+                    I'm passionate about combining technical precision with creative problem-solving, but more than that I love learning new things (just launched my first proper .net website
+                    with vercel and a little help from claude for the front end 😅), enjoy exploring and starting new business ventures (1 profitable company, 4 more in progress!) and am deeply connected with human Performance
+                    and sleeping/eating/training for longevity. 
+
+                    I really enjoy the outdoors, and also have a passion for coding, which has elevated my Aerospace experience. I hope you find the info below interesting!
+                </p>
+                <p>
+                    My experience spans from engineering internships at Piper Aircraft to founding Bike Bros Gainesville, 
+                    a sustainable bicycle refurbishment business. I thrive at the intersection of engineering excellence, 
+                    entrepreneurship, and the arts.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience-section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="card-header">
+                        <img src="images/uf_mae_logo.png" alt="UF MAE" class="company-logo"/>
+                        <div>
+                            <h3>Teaching Assistant</h3>
+                            <p class="company">Design and Manufacturing Lab, UF</p>
+                            <p class="date">Aug 2024 – Present</p>
+                        </div>
+                    </div>
+                    <ul class="experience-list">
+                        <li>Direct semester-long training of 4-student groups in manual machining (mills and lathes)</li>
+                        <li>Mentor 20+ students in DFMA, GD&T, MIRS, ECNS and manufacturing documentation practices</li>
+                        <li>Exercise full grading discretion, evaluating performance against industry standards</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-header">
+                        <img src="images/piper_aircraft_logo.png" alt="Piper Aircraft" class="company-logo"/>
+                        <div>
+                            <h3>Powerplant & Mechanical Systems Engineering Intern</h3>
+                            <p class="company">Piper Aircraft Inc.</p>
+                            <p class="date">Jan 2024 – May 2024</p>
+                        </div>
+                    </div>
+                    <ul class="experience-list">
+                        <li>Engineered a TensorFlow/Pandas tool analyzing 47K+ sensor data points to predictively model brake energy response</li>
+                        <li>Developed Python tool to model maximum field of view as a function of aircraft nose length using CAD geometry</li>
+                        <li>Built CFD-validated flight sim model in Microsoft Flight Sim VR using Blender</li>
+                        <li>Reverse-engineered an oleo strut with advanced metrology and validated CAD modeling</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-header">
+                        <img src="images/bike_bros_logo.png" alt="Bike Bros" class="company-logo"/>
+                        <div>
+                            <h3>Founder & CEO</h3>
+                            <p class="company">Bike Bros Gainesville</p>
+                            <p class="date">May 2025 – Present</p>
+                        </div>
+                    </div>
+                    <ul class="experience-list">
+                        <li>Identified unmet demand through surveying 150+ customers while working as bike mechanic</li>
+                        <li>Built network of 5 mechanics to source, refurbish and resell vintage bicycles</li>
+                        <li>Established sustainable supply chain promoting circular economy and accessibility</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="images/brake_analysis_project.png" alt="Brake Energy Analysis" class="project-image"/>
+                    <div class="project-content">
+                        <h3>Aircraft Brake Energy Prediction</h3>
+                        <p>TensorFlow-based predictive model analyzing 47,000+ sensor data points with custom pre-processing, 
+                        Savitsky-Golay filtering, and Mini-batch SGD optimization.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Matplotlib</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/accompanist_app.png" alt="Accompanist Booking App" class="project-image"/>
+                    <div class="project-content">
+                        <h3>Accompanist Booking Platform</h3>
+                        <p>Full-stack application matching soloists with accompanist pianists through a bid-based booking system.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Supabase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/decision_matrix.png" alt="Car Decision Matrix" class="project-image"/>
+                    <div class="project-content">
+                        <h3>Dynamic Car Decision Matrix</h3>
+                        <p>Google Sheets tool with JavaScript implementing 3 piecewise scoring functions with sensitivity scaling 
+                        and linear regression for ranked recommendations.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Google Sheets API</span>
+                            <span class="tag">Linear Regression</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/air_engine.png" alt="Air Engine" class="project-image"/>
+                    <div class="project-content">
+                        <h3>CNC Air Engine</h3>
+                        <p>Programmed, CNC-machined and assembled 5 components for an air engine using Fusion360 CAM 
+                        and Haas VF-3 mill, earning ACE CNC certificate.</p>
+                        <div class="project-tags">
+                            <span class="tag">Fusion 360 CAM</span>
+                            <span class="tag">CNC Machining</span>
+                            <span class="tag">ACE Certified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/flight_sim_model.png" alt="Flight Simulator" class="project-image"/>
+                    <div class="project-content">
+                        <h3>VR Flight Simulator Model</h3>
+                        <p>CFD-validated experimental aircraft model in Microsoft Flight Sim VR with customized aerodynamic controls.</p>
+                        <div class="project-tags">
+                            <span class="tag">Blender</span>
+                            <span class="tag">CFD</span>
+                            <span class="tag">VR</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/custom_pen.png" alt="Custom Pen" class="project-image"/>
+                    <div class="project-content">
+                        <h3>Custom Steel Pen</h3>
+                        <p>Designed and machined over 10+ iterations using manual lathe with self-taught single-point threading techniques.</p>
+                        <div class="project-tags">
+                            <span class="tag">Manual Machining</span>
+                            <span class="tag">Threading</span>
+                            <span class="tag">Steel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            
+            <div class="skills-categories">
+                <div class="skill-category">
+                    <h3 class="category-title">Programming Languages</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">Dart</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">MATLAB</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Full-Stack Development</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">Supabase</span>
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">Firebase</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">CAD & Manufacturing</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">SolidWorks</span>
+                        <span class="skill-tag">Siemens NX</span>
+                        <span class="skill-tag">Fusion 360 CAM</span>
+                        <span class="skill-tag">ABAQUS</span>
+                        <span class="skill-tag">Blender</span>
+                        <span class="skill-tag">ACE CNC Certified</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Data Science & ML</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">yfinance</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Aerospace Tools</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Luminary CFD</span>
+                        <span class="skill-tag">XFLR-5</span>
+                        <span class="skill-tag">ANSYS STK</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Languages</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">English</span>
+                        <span class="skill-tag">Spanish (Native)</span>
+                        <span class="skill-tag">French (Conversational)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section class="section activities-section">
+        <div class="container">
+            <h2 class="section-title">Activities & Leadership</h2>
+            
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <img src="images/piano_playing_pic.png" alt="Piano Performance" class="activity-image"/>
+                    <h3>Professional Pianist & Accompanist</h3>
+                    <p class="activity-date">Aug 2022 – Present</p>
+                    <p>Lead weekly performances as principal pianist at University Lutheran Church. 
+                    Accompany 6+ students regularly, including cellists, violinists and vocalists. 
+                    Lead critical performances for audiences of 3000+.</p>
+                </div>
+
+                <div class="activity-card">
+                    <img src="images/triathlon_pic.png" alt="Triathlon" class="activity-image"/>
+                    <h3>Competitive Triathlete</h3>
+                    <p class="activity-date">Jan 2024 – Present</p>
+                    <p>11th place in 20-24 male category at 2024 "Escape the Swamp" Triathlon. 
+                    Train with TriGators and Piper Cycling Club on 40+ mile rides twice weekly. 
+                    Achieved RHR in low 50s and 75ms avg HRV.</p>
+                </div>
+
+                <div class="activity-card">
+                    <img src="images/rocket_lab_pic.png" alt="Florida Rocket Lab" class="activity-image"/>
+                    <h3>Manufacturing & Fluid Systems Engineer</h3>
+                    <p class="activity-date">Aug 2023 – Jan 2025 | Florida Rocket Lab</p>
+                    <p>Prototyped Arduino-based mass flow rate measurement solution. 
+                    Manufactured 12+ components for TVC Gimbal system in Carbon Steel, 304 Stainless and PET.</p>
+                </div>
+
+                <div class="activity-card">
+                    <img src="images/bike_repair_pic.png" alt="Bike Mechanic" class="activity-image"/>
+                    <h3>Bicycle Mechanic</h3>
+                    <p class="activity-date">Aug 2022 – Aug 2024 | UF Student Government</p>
+                    <p>Managed repair of 2600+ bikes in fast-paced environment. 
+                    Increased customer inflow by 25% through improved scheduling. 
+                    Experience led to founding Bike Bros Gainesville.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Pablo Francisco Coral. All rights reserved.</p>
+        </div>
+    </footer>
+</div>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        line-height: 1.6;
+        color: #2d3748;
+    }
+
+    .portfolio-container {
+        width: 100%;
+        background: #ffffff;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 6rem 2rem 4rem;
+        text-align: center;
+    }
+
+    .profile-image {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid white;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-name {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero-tagline {
+        font-size: 1.4rem;
+        margin-bottom: 0.25rem;
+        opacity: 0.95;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+        opacity: 0.9;
+    }
+
+    .hero-links {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-link {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.75rem 1.5rem;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
+
+    .hero-link svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .hero-link:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: translateY(-2px);
+    }
+
+    /* Section Styles */
+    .section {
+        padding: 5rem 0;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 3rem;
+        color: #2d3748;
+    }
+
+    /* About Section */
+    .about-section {
+        background: #f7fafc;
+    }
+
+    .about-content {
+        max-width: 800px;
+        margin: 0 auto;
+        font-size: 1.125rem;
+        line-height: 1.8;
+    }
+
+    .about-content p {
+        margin-bottom: 1.5rem;
+    }
+
+    /* Experience Section */
+    .experience-grid {
+        display: grid;
+        gap: 2rem;
+    }
+
+    .experience-card {
+        background: white;
+        border-radius: 15px;
+        padding: 2rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .experience-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    }
+
+    .card-header {
+        display: flex;
+        gap: 1.5rem;
+        margin-bottom: 1.5rem;
+        align-items: flex-start;
+    }
+
+    .company-logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        object-fit: contain;
+        background: #f7fafc;
+        padding: 0.5rem;
+    }
+
+    .card-header h3 {
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+        color: #2d3748;
+    }
+
+    .company {
+        font-size: 1.05rem;
+        color: #667eea;
+        font-weight: 500;
+    }
+
+    .date {
+        font-size: 0.95rem;
+        color: #718096;
+    }
+
+    .experience-list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .experience-list li {
+        padding-left: 1.5rem;
+        margin-bottom: 0.75rem;
+        position: relative;
+        color: #4a5568;
+    }
+
+    .experience-list li:before {
+        content: "▹";
+        position: absolute;
+        left: 0;
+        color: #667eea;
+        font-weight: bold;
+    }
+
+    /* Projects Section */
+    .projects-section {
+        background: #f7fafc;
+    }
+
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 2rem;
+    }
+
+    .project-card {
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    }
+
+    .project-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+
+    .project-content {
+        padding: 1.5rem;
+    }
+
+    .project-content h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        color: #2d3748;
+    }
+
+    .project-content p {
+        color: #4a5568;
+        margin-bottom: 1rem;
+        line-height: 1.6;
+    }
+
+    .project-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .tag {
+        background: #edf2f7;
+        color: #667eea;
+        padding: 0.4rem 0.9rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 500;
+    }
+
+    /* Skills Section */
+    .skills-categories {
+        display: grid;
+        gap: 2.5rem;
+    }
+
+    .skill-category {
+        background: white;
+        padding: 2rem;
+        border-radius: 15px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .category-title {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: #667eea;
+    }
+
+    .skills-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+    }
+
+    .skill-tag {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 0.6rem 1.25rem;
+        border-radius: 25px;
+        font-size: 0.95rem;
+        font-weight: 500;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .skill-tag:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    }
+
+    /* Activities Section */
+    .activities-section {
+        background: #f7fafc;
+    }
+
+    .activities-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+    }
+
+    .activity-card {
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .activity-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    }
+
+    .activity-image {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+
+    .activity-card h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding: 1.5rem 1.5rem 0.5rem;
+        color: #2d3748;
+    }
+
+    .activity-date {
+        color: #667eea;
+        font-weight: 500;
+        padding: 0 1.5rem 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .activity-card p:last-child {
+        padding: 0 1.5rem 1.5rem;
+        color: #4a5568;
+        line-height: 1.6;
+    }
+
+    /* Footer */
+    .footer {
+        background: #2d3748;
+        color: white;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    /* Responsive Design */
+    @@media (max-width: 768px) {
+        .hero-name {
+            font-size: 2rem;
+        }
+
+        .hero-tagline {
+            font-size: 1.1rem;
+        }
+
+        .section {
+            padding: 3rem 0;
+        }
+
+        .section-title {
+            font-size: 2rem;
+        }
+
+        .projects-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .activities-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .hero-links {
+            flex-direction: column;
+        }
+
+        .card-header {
+            flex-direction: column;
+        }
+    }
+</style>
