@@ -1,7 +1,0 @@
-{
-    "buildCommand": "bash -lc 'curl -sSL https://dot.net/v1/dotnet-install.sh -o /tmp/dotnet-install.sh && bash /tmp/dotnet-install.sh --channel 9.0 --install-dir $HOME/dotnet && export PATH=$HOME/dotnet:$PATH && $HOME/dotnet/dotnet --info && $HOME/dotnet/dotnet publish -c Release -o build'",
-    "outputDirectory": "build/wwwroot",
-    "rewrites": [
-        { "source": "/(.*)", "destination": "/index.html" }
-    ]
-}
