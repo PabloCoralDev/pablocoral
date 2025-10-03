@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dBFEwKYX8nHPOt2S8J71gBeiJyAaYvRtV9JDYaP45Eg=",
+  "Hash": "BHqy0QCyB4Srz617nDNBMSENnODFmi2mAO0YBSIb2aU=",
   "Source": "pablocoral",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "5m4cuzveoz",
-      "Integrity": "o6Nj17v7ON2c1jAFbFJPdJJJrscmK4V8u0T6oVAFtFM=",
+      "Fingerprint": "zz2ghh26r8",
+      "Integrity": "L6gSiZ0DVLVolC0tL1zPs0JBqgFfKOB4HHopPbA+rM8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -871,8 +871,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "00rmi66c7y",
-      "Integrity": "0EPeL0FT2pG8m3zz1LSiEfbG8ysjP/CuuqFC8nZ4Hi0=",
+      "Fingerprint": "gjq64edpks",
+      "Integrity": "JKizfog+hyCARNdkWlyYRwdcwskTFQS5jy0HuXArHDs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/pablocoral.pdb"
@@ -892,8 +892,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "8o48xn165s",
-      "Integrity": "qNbBthClO8k9c5ANrtsUgCA8Z39QugqTdfyoviibh0I=",
+      "Fingerprint": "0t80gzkrtl",
+      "Integrity": "lKjtaMI0ViEov5UlCoJBozbe/YBWEpD3vXO/mt9TTh0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/webcil/pablocoral.wasm"
@@ -5876,7 +5876,7 @@
       "OriginalItemSpec": "/Users/pablostuff/pablocoral/bin/Debug/net9.0/wwwroot/_framework/System.Net.Quic.wasm"
     },
     {
-      "Identity": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/ctnb8drq98-5m4cuzveoz.gz",
+      "Identity": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/ctnb8drq98-zz2ghh26r8.gz",
       "SourceId": "pablocoral",
       "SourceType": "Computed",
       "ContentRoot": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/",
@@ -5890,8 +5890,8 @@
       "RelatedAsset": "/Users/pablostuff/pablocoral/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zkx3elwn0j",
-      "Integrity": "PTFBiB3UrDiqDuZGyW/fYr+/leK0su9SKWrTcEy/YkE=",
+      "Fingerprint": "8xbukud8sf",
+      "Integrity": "JMxsgnFYxhSATDgdjZviIuQsajDaUOARmHQw+hIurLs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/pablostuff/pablocoral/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -6380,12 +6380,12 @@
       "OriginalItemSpec": "/Users/pablostuff/pablocoral/bin/Debug/net9.0/wwwroot/_framework/System.Xml.Serialization.wasm"
     },
     {
-      "Identity": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/g5yg66cygs-8o48xn165s.gz",
+      "Identity": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/g5yg66cygs-0t80gzkrtl.gz",
       "SourceId": "pablocoral",
       "SourceType": "Computed",
       "ContentRoot": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/pablocoral#[.{fingerprint=8o48xn165s}]!.wasm.gz",
+      "RelativePath": "_framework/pablocoral#[.{fingerprint=0t80gzkrtl}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6394,8 +6394,8 @@
       "RelatedAsset": "/Users/pablostuff/pablocoral/bin/Debug/net9.0/wwwroot/_framework/pablocoral.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "nsccxfo6yc",
-      "Integrity": "xygnINfC8iocxcvqSpqGGAEXEqgdMdfwZNSfVmAZj0Q=",
+      "Fingerprint": "jy8qd3r77y",
+      "Integrity": "JccW8SpFEYOCGNhbptVBy5tgtWppHwWZwAw6qwWmqJw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/pablostuff/pablocoral/bin/Debug/net9.0/wwwroot/_framework/pablocoral.wasm"
@@ -8606,12 +8606,12 @@
       "OriginalItemSpec": "/Users/pablostuff/pablocoral/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Win32.Primitives.wasm"
     },
     {
-      "Identity": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/tqtxtb14wb-00rmi66c7y.gz",
+      "Identity": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/tqtxtb14wb-gjq64edpks.gz",
       "SourceId": "pablocoral",
       "SourceType": "Computed",
       "ContentRoot": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/pablocoral#[.{fingerprint=00rmi66c7y}]!.pdb.gz",
+      "RelativePath": "_framework/pablocoral#[.{fingerprint=gjq64edpks}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8620,8 +8620,8 @@
       "RelatedAsset": "/Users/pablostuff/pablocoral/bin/Debug/net9.0/wwwroot/_framework/pablocoral.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xli09q0x20",
-      "Integrity": "Ne9ziu4M6tdwHIc+ylU9ngyT4TDcYWDo0I7r2uPPlA8=",
+      "Fingerprint": "3bdqu5q2f7",
+      "Integrity": "3/dn9KnruKNtWHB1WvQqRQCoAKRACFz42m+TkzPZcto=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/pablostuff/pablocoral/bin/Debug/net9.0/wwwroot/_framework/pablocoral.pdb"
@@ -10915,11 +10915,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"o6Nj17v7ON2c1jAFbFJPdJJJrscmK4V8u0T6oVAFtFM=\""
+          "Value": "\"L6gSiZ0DVLVolC0tL1zPs0JBqgFfKOB4HHopPbA+rM8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Oct 2025 02:30:12 GMT"
+          "Value": "Fri, 03 Oct 2025 13:01:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10929,18 +10929,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-o6Nj17v7ON2c1jAFbFJPdJJJrscmK4V8u0T6oVAFtFM="
+          "Value": "sha256-L6gSiZ0DVLVolC0tL1zPs0JBqgFfKOB4HHopPbA+rM8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/ctnb8drq98-5m4cuzveoz.gz",
+      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/ctnb8drq98-zz2ghh26r8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081129320"
+          "Quality": "0.000081096424"
         }
       ],
       "ResponseHeaders": [
@@ -10950,15 +10950,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12325"
+          "Value": "12330"
         },
         {
           "Name": "ETag",
-          "Value": "\"PTFBiB3UrDiqDuZGyW/fYr+/leK0su9SKWrTcEy/YkE=\""
+          "Value": "\"JMxsgnFYxhSATDgdjZviIuQsajDaUOARmHQw+hIurLs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Oct 2025 00:49:37 GMT"
+          "Value": "Fri, 03 Oct 2025 13:01:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10978,19 +10978,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"o6Nj17v7ON2c1jAFbFJPdJJJrscmK4V8u0T6oVAFtFM=\""
+          "Value": "W/\"L6gSiZ0DVLVolC0tL1zPs0JBqgFfKOB4HHopPbA+rM8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-o6Nj17v7ON2c1jAFbFJPdJJJrscmK4V8u0T6oVAFtFM="
+          "Value": "sha256-L6gSiZ0DVLVolC0tL1zPs0JBqgFfKOB4HHopPbA+rM8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/ctnb8drq98-5m4cuzveoz.gz",
+      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/ctnb8drq98-zz2ghh26r8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10999,7 +10999,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12325"
+          "Value": "12330"
         },
         {
           "Name": "Content-Type",
@@ -11007,11 +11007,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PTFBiB3UrDiqDuZGyW/fYr+/leK0su9SKWrTcEy/YkE=\""
+          "Value": "\"JMxsgnFYxhSATDgdjZviIuQsajDaUOARmHQw+hIurLs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Oct 2025 00:49:37 GMT"
+          "Value": "Fri, 03 Oct 2025 13:01:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11029,7 +11029,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PTFBiB3UrDiqDuZGyW/fYr+/leK0su9SKWrTcEy/YkE="
+          "Value": "sha256-JMxsgnFYxhSATDgdjZviIuQsajDaUOARmHQw+hIurLs="
         }
       ]
     },
@@ -22495,168 +22495,7 @@
       ]
     },
     {
-      "Route": "_framework/pablocoral.00rmi66c7y.pdb",
-      "AssetFile": "/Users/pablostuff/pablocoral/bin/Debug/net9.0/wwwroot/_framework/pablocoral.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "29424"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0EPeL0FT2pG8m3zz1LSiEfbG8ysjP/CuuqFC8nZ4Hi0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 03 Oct 2025 00:49:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "00rmi66c7y"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/pablocoral.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0EPeL0FT2pG8m3zz1LSiEfbG8ysjP/CuuqFC8nZ4Hi0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/pablocoral.00rmi66c7y.pdb",
-      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/tqtxtb14wb-00rmi66c7y.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000043675751"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22895"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ne9ziu4M6tdwHIc+ylU9ngyT4TDcYWDo0I7r2uPPlA8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 03 Oct 2025 00:49:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"0EPeL0FT2pG8m3zz1LSiEfbG8ysjP/CuuqFC8nZ4Hi0=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "00rmi66c7y"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/pablocoral.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0EPeL0FT2pG8m3zz1LSiEfbG8ysjP/CuuqFC8nZ4Hi0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/pablocoral.00rmi66c7y.pdb.gz",
-      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/tqtxtb14wb-00rmi66c7y.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22895"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ne9ziu4M6tdwHIc+ylU9ngyT4TDcYWDo0I7r2uPPlA8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 03 Oct 2025 00:49:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "00rmi66c7y"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/pablocoral.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ne9ziu4M6tdwHIc+ylU9ngyT4TDcYWDo0I7r2uPPlA8="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/pablocoral.8o48xn165s.wasm",
+      "Route": "_framework/pablocoral.0t80gzkrtl.wasm",
       "AssetFile": "/Users/pablostuff/pablocoral/bin/Debug/net9.0/wwwroot/_framework/pablocoral.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22674,11 +22513,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qNbBthClO8k9c5ANrtsUgCA8Z39QugqTdfyoviibh0I=\""
+          "Value": "\"lKjtaMI0ViEov5UlCoJBozbe/YBWEpD3vXO/mt9TTh0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Oct 2025 00:49:36 GMT"
+          "Value": "Fri, 03 Oct 2025 12:58:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22688,7 +22527,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8o48xn165s"
+          "Value": "0t80gzkrtl"
         },
         {
           "Name": "label",
@@ -22696,18 +22535,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qNbBthClO8k9c5ANrtsUgCA8Z39QugqTdfyoviibh0I="
+          "Value": "sha256-lKjtaMI0ViEov5UlCoJBozbe/YBWEpD3vXO/mt9TTh0="
         }
       ]
     },
     {
-      "Route": "_framework/pablocoral.8o48xn165s.wasm",
-      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/g5yg66cygs-8o48xn165s.gz",
+      "Route": "_framework/pablocoral.0t80gzkrtl.wasm",
+      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/g5yg66cygs-0t80gzkrtl.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000065621104"
+          "Quality": "0.000065634025"
         }
       ],
       "ResponseHeaders": [
@@ -22717,15 +22556,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15238"
+          "Value": "15235"
         },
         {
           "Name": "ETag",
-          "Value": "\"xygnINfC8iocxcvqSpqGGAEXEqgdMdfwZNSfVmAZj0Q=\""
+          "Value": "\"JccW8SpFEYOCGNhbptVBy5tgtWppHwWZwAw6qwWmqJw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Oct 2025 00:49:37 GMT"
+          "Value": "Fri, 03 Oct 2025 12:58:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22745,13 +22584,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"qNbBthClO8k9c5ANrtsUgCA8Z39QugqTdfyoviibh0I=\""
+          "Value": "W/\"lKjtaMI0ViEov5UlCoJBozbe/YBWEpD3vXO/mt9TTh0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8o48xn165s"
+          "Value": "0t80gzkrtl"
         },
         {
           "Name": "label",
@@ -22759,13 +22598,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qNbBthClO8k9c5ANrtsUgCA8Z39QugqTdfyoviibh0I="
+          "Value": "sha256-lKjtaMI0ViEov5UlCoJBozbe/YBWEpD3vXO/mt9TTh0="
         }
       ]
     },
     {
-      "Route": "_framework/pablocoral.8o48xn165s.wasm.gz",
-      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/g5yg66cygs-8o48xn165s.gz",
+      "Route": "_framework/pablocoral.0t80gzkrtl.wasm.gz",
+      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/g5yg66cygs-0t80gzkrtl.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22774,7 +22613,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15238"
+          "Value": "15235"
         },
         {
           "Name": "Content-Type",
@@ -22782,11 +22621,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xygnINfC8iocxcvqSpqGGAEXEqgdMdfwZNSfVmAZj0Q=\""
+          "Value": "\"JccW8SpFEYOCGNhbptVBy5tgtWppHwWZwAw6qwWmqJw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Oct 2025 00:49:37 GMT"
+          "Value": "Fri, 03 Oct 2025 12:58:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22804,7 +22643,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8o48xn165s"
+          "Value": "0t80gzkrtl"
         },
         {
           "Name": "label",
@@ -22812,7 +22651,168 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xygnINfC8iocxcvqSpqGGAEXEqgdMdfwZNSfVmAZj0Q="
+          "Value": "sha256-JccW8SpFEYOCGNhbptVBy5tgtWppHwWZwAw6qwWmqJw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/pablocoral.gjq64edpks.pdb",
+      "AssetFile": "/Users/pablostuff/pablocoral/bin/Debug/net9.0/wwwroot/_framework/pablocoral.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JKizfog+hyCARNdkWlyYRwdcwskTFQS5jy0HuXArHDs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Oct 2025 12:58:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gjq64edpks"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/pablocoral.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JKizfog+hyCARNdkWlyYRwdcwskTFQS5jy0HuXArHDs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/pablocoral.gjq64edpks.pdb",
+      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/tqtxtb14wb-gjq64edpks.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000043675751"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22895"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3/dn9KnruKNtWHB1WvQqRQCoAKRACFz42m+TkzPZcto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Oct 2025 12:58:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JKizfog+hyCARNdkWlyYRwdcwskTFQS5jy0HuXArHDs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gjq64edpks"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/pablocoral.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JKizfog+hyCARNdkWlyYRwdcwskTFQS5jy0HuXArHDs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/pablocoral.gjq64edpks.pdb.gz",
+      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/tqtxtb14wb-gjq64edpks.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22895"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3/dn9KnruKNtWHB1WvQqRQCoAKRACFz42m+TkzPZcto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Oct 2025 12:58:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gjq64edpks"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/pablocoral.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3/dn9KnruKNtWHB1WvQqRQCoAKRACFz42m+TkzPZcto="
         }
       ]
     },
@@ -22835,11 +22835,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0EPeL0FT2pG8m3zz1LSiEfbG8ysjP/CuuqFC8nZ4Hi0=\""
+          "Value": "\"JKizfog+hyCARNdkWlyYRwdcwskTFQS5jy0HuXArHDs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Oct 2025 00:49:36 GMT"
+          "Value": "Fri, 03 Oct 2025 12:58:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22849,13 +22849,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0EPeL0FT2pG8m3zz1LSiEfbG8ysjP/CuuqFC8nZ4Hi0="
+          "Value": "sha256-JKizfog+hyCARNdkWlyYRwdcwskTFQS5jy0HuXArHDs="
         }
       ]
     },
     {
       "Route": "_framework/pablocoral.pdb",
-      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/tqtxtb14wb-00rmi66c7y.gz",
+      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/tqtxtb14wb-gjq64edpks.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -22874,11 +22874,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ne9ziu4M6tdwHIc+ylU9ngyT4TDcYWDo0I7r2uPPlA8=\""
+          "Value": "\"3/dn9KnruKNtWHB1WvQqRQCoAKRACFz42m+TkzPZcto=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Oct 2025 00:49:37 GMT"
+          "Value": "Fri, 03 Oct 2025 12:58:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22898,19 +22898,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"0EPeL0FT2pG8m3zz1LSiEfbG8ysjP/CuuqFC8nZ4Hi0=\""
+          "Value": "W/\"JKizfog+hyCARNdkWlyYRwdcwskTFQS5jy0HuXArHDs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0EPeL0FT2pG8m3zz1LSiEfbG8ysjP/CuuqFC8nZ4Hi0="
+          "Value": "sha256-JKizfog+hyCARNdkWlyYRwdcwskTFQS5jy0HuXArHDs="
         }
       ]
     },
     {
       "Route": "_framework/pablocoral.pdb.gz",
-      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/tqtxtb14wb-00rmi66c7y.gz",
+      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/tqtxtb14wb-gjq64edpks.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22927,11 +22927,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ne9ziu4M6tdwHIc+ylU9ngyT4TDcYWDo0I7r2uPPlA8=\""
+          "Value": "\"3/dn9KnruKNtWHB1WvQqRQCoAKRACFz42m+TkzPZcto=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Oct 2025 00:49:37 GMT"
+          "Value": "Fri, 03 Oct 2025 12:58:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22949,7 +22949,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ne9ziu4M6tdwHIc+ylU9ngyT4TDcYWDo0I7r2uPPlA8="
+          "Value": "sha256-3/dn9KnruKNtWHB1WvQqRQCoAKRACFz42m+TkzPZcto="
         }
       ]
     },
@@ -22972,11 +22972,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qNbBthClO8k9c5ANrtsUgCA8Z39QugqTdfyoviibh0I=\""
+          "Value": "\"lKjtaMI0ViEov5UlCoJBozbe/YBWEpD3vXO/mt9TTh0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Oct 2025 00:49:36 GMT"
+          "Value": "Fri, 03 Oct 2025 12:58:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22986,18 +22986,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qNbBthClO8k9c5ANrtsUgCA8Z39QugqTdfyoviibh0I="
+          "Value": "sha256-lKjtaMI0ViEov5UlCoJBozbe/YBWEpD3vXO/mt9TTh0="
         }
       ]
     },
     {
       "Route": "_framework/pablocoral.wasm",
-      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/g5yg66cygs-8o48xn165s.gz",
+      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/g5yg66cygs-0t80gzkrtl.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000065621104"
+          "Quality": "0.000065634025"
         }
       ],
       "ResponseHeaders": [
@@ -23007,15 +23007,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15238"
+          "Value": "15235"
         },
         {
           "Name": "ETag",
-          "Value": "\"xygnINfC8iocxcvqSpqGGAEXEqgdMdfwZNSfVmAZj0Q=\""
+          "Value": "\"JccW8SpFEYOCGNhbptVBy5tgtWppHwWZwAw6qwWmqJw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Oct 2025 00:49:37 GMT"
+          "Value": "Fri, 03 Oct 2025 12:58:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23035,19 +23035,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"qNbBthClO8k9c5ANrtsUgCA8Z39QugqTdfyoviibh0I=\""
+          "Value": "W/\"lKjtaMI0ViEov5UlCoJBozbe/YBWEpD3vXO/mt9TTh0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qNbBthClO8k9c5ANrtsUgCA8Z39QugqTdfyoviibh0I="
+          "Value": "sha256-lKjtaMI0ViEov5UlCoJBozbe/YBWEpD3vXO/mt9TTh0="
         }
       ]
     },
     {
       "Route": "_framework/pablocoral.wasm.gz",
-      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/g5yg66cygs-8o48xn165s.gz",
+      "AssetFile": "/Users/pablostuff/pablocoral/obj/Debug/net9.0/compressed/g5yg66cygs-0t80gzkrtl.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23056,7 +23056,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15238"
+          "Value": "15235"
         },
         {
           "Name": "Content-Type",
@@ -23064,11 +23064,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xygnINfC8iocxcvqSpqGGAEXEqgdMdfwZNSfVmAZj0Q=\""
+          "Value": "\"JccW8SpFEYOCGNhbptVBy5tgtWppHwWZwAw6qwWmqJw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Oct 2025 00:49:37 GMT"
+          "Value": "Fri, 03 Oct 2025 12:58:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23086,7 +23086,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xygnINfC8iocxcvqSpqGGAEXEqgdMdfwZNSfVmAZj0Q="
+          "Value": "sha256-JccW8SpFEYOCGNhbptVBy5tgtWppHwWZwAw6qwWmqJw="
         }
       ]
     },
