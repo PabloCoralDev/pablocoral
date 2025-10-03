@@ -21,6 +21,46 @@
       "PackagePath": "staticwebassets/icon-192.png"
     },
     {
+      "Id": "/Users/pablostuff/pablocoral/wwwroot/images/air_engine.jpeg",
+      "PackagePath": "staticwebassets/images/air_engine.jpeg"
+    },
+    {
+      "Id": "/Users/pablostuff/pablocoral/wwwroot/images/bike_bros_logo.jpeg",
+      "PackagePath": "staticwebassets/images/bike_bros_logo.jpeg"
+    },
+    {
+      "Id": "/Users/pablostuff/pablocoral/wwwroot/images/brake_analysis_project.jpeg",
+      "PackagePath": "staticwebassets/images/brake_analysis_project.jpeg"
+    },
+    {
+      "Id": "/Users/pablostuff/pablocoral/wwwroot/images/custom_pen.jpeg",
+      "PackagePath": "staticwebassets/images/custom_pen.jpeg"
+    },
+    {
+      "Id": "/Users/pablostuff/pablocoral/wwwroot/images/decision_matrix.jpeg",
+      "PackagePath": "staticwebassets/images/decision_matrix.jpeg"
+    },
+    {
+      "Id": "/Users/pablostuff/pablocoral/wwwroot/images/flight_sim_model.jpeg",
+      "PackagePath": "staticwebassets/images/flight_sim_model.jpeg"
+    },
+    {
+      "Id": "/Users/pablostuff/pablocoral/wwwroot/images/piper_aircraft_logo.jpeg",
+      "PackagePath": "staticwebassets/images/piper_aircraft_logo.jpeg"
+    },
+    {
+      "Id": "/Users/pablostuff/pablocoral/wwwroot/images/profile1.JPG",
+      "PackagePath": "staticwebassets/images/profile1.JPG"
+    },
+    {
+      "Id": "/Users/pablostuff/pablocoral/wwwroot/images/uf_mae_logo.jpeg",
+      "PackagePath": "staticwebassets/images/uf_mae_logo.jpeg"
+    },
+    {
+      "Id": "/Users/pablostuff/pablocoral/wwwroot/images/virtuonext_app.png",
+      "PackagePath": "staticwebassets/images/virtuonext_app.png"
+    },
+    {
       "Id": "/Users/pablostuff/pablocoral/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
     },

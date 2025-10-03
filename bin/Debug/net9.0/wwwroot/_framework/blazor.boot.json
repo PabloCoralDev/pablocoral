@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "pablocoral",
   "resources": {
-    "hash": "sha256-GPDPxm7LJj7IIFcoBWjqxG6vc92PxUxuD43NBVoNN2k=",
+    "hash": "sha256-17Ukjqe1FOGaRk9Zf2vtR2DbHgDJtBAfVDCQCzISvIY=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.tnyc7xpluy.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.t32damlu4o.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "pablocoral.zx8jler4uv.wasm": "pablocoral.wasm",
-      "pablocoral.4gn76b6pts.pdb": "pablocoral.pdb"
+      "pablocoral.8o48xn165s.wasm": "pablocoral.wasm",
+      "pablocoral.00rmi66c7y.pdb": "pablocoral.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.50iqa8w3ys.js": "sha256-pQdXuxfVeqYHOwd5HUM2ERd7OnXirj9JTF37b6OdTAc="
@@ -412,10 +412,10 @@
       "WindowsBase.361km0836k.wasm": "sha256-FacUCEIJYTnbOWgX/R9QP2QnurqRZwRIkDAH0N9z69s=",
       "mscorlib.qiu3j3msqk.wasm": "sha256-QvztpxTOEw4aMIl7zP3QtsPLNv/IWaK5wq22J4ReGrA=",
       "netstandard.lp03u0xxi4.wasm": "sha256-WVQsxULiAiEbyXLKolS7txnWVT82SsvsuMe4jJ+SqqI=",
-      "pablocoral.zx8jler4uv.wasm": "sha256-+W45O8hWYfnasz/DvjNK+hM5wCDcjK7uWEqPhRsQOMs="
+      "pablocoral.8o48xn165s.wasm": "sha256-qNbBthClO8k9c5ANrtsUgCA8Z39QugqTdfyoviibh0I="
     },
     "pdb": {
-      "pablocoral.4gn76b6pts.pdb": "sha256-dORv6pxUxg18qB+MGCd5kbc482/iCV8K+qh1GZ4TxkE="
+      "pablocoral.00rmi66c7y.pdb": "sha256-0EPeL0FT2pG8m3zz1LSiEfbG8ysjP/CuuqFC8nZ4Hi0="
     }
   },
   "cacheBootResources": true,

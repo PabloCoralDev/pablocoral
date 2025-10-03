@@ -1,4 +1,5 @@
 ﻿@page "/"
+@inject NavigationManager Nav
 
 <PageTitle>Pablo Coral - Portfolio</PageTitle>
 
@@ -11,7 +12,7 @@
             <p class="hero-tagline">Aerospace Engineering | Piano Performance</p>
             <p class="hero-subtitle">University of Florida | GPA: 3.63 | Graduating May 2027</p>
             <div class="hero-links">
-                <a href="https://www.linkedin.com/in/pablo-coral/" target="_blank" class="hero-link">
+                <a href="https://www.linkedin.com/in/pablo-coral/" target="_blank"class="hero-link">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
                     </svg>
@@ -30,6 +31,96 @@
                     </svg>
                     (904) 581-9028
                 </a>
+            </div>
+        </div>
+    </section>
+        <!-- Projects Section -->
+    <section class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="images/brake_analysis_project.jpeg" alt="Brake Energy Analysis" class="project-image"/>
+                    <div class="project-content">
+                        <h3>Aircraft Brake Energy Prediction</h3>
+                        <p>TensorFlow-based predictive model analyzing 47,000+ sensor data points with custom pre-processing, 
+                        Savitsky-Golay filtering, and Mini-batch SGD optimization.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Matplotlib</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/virtuonext_app.png" alt="Accompanist Booking App" class="project-image"/>
+                    <div class="project-content">
+                        <h3>Accompanist Booking Platform</h3>
+                        <p>Full-stack application matching soloists with accompanist pianists through a bid-based booking system.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Supabase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" @onclick="@(() => Nav.NavigateTo("https://docs.google.com/spreadsheets/d/e/2PACX-1vTCVtAUelqurRjV4xumrZep8Ptkvn8AJ9DBHgum5hQvDlWraqsPq9BYhWdw1pwCYliq-bZXFNYj4W2f/pubhtml"))">
+                    <img src="images/decision_matrix.jpeg" alt="Car Decision Matrix" class="project-image"/>
+                    <div class="project-content">
+                        <h3>Dynamic Car Decision Matrix</h3>
+                        <p>Google Sheets tool with JavaScript implementing 3 piecewise scoring functions with sensitivity scaling 
+                        and linear regression for ranked recommendations.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Google Sheets API</span>
+                            <span class="tag">Linear Regression</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="../images/air_engine.jpeg" alt="Air Engine" class="project-image"/>
+                    <div class="project-content">
+                        <h3>CNC Air Engine</h3>
+                        <p>Programmed, CNC-machined and assembled 5 components for an air engine using Fusion360 CAM 
+                        and Haas VF-3 mill, earning ACE CNC certificate.</p>
+                        <div class="project-tags">
+                            <span class="tag">Fusion 360 CAM</span>
+                            <span class="tag">CNC Machining</span>
+                            <span class="tag">ACE Certified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/flight_sim_model.jpeg" alt="Flight Simulator" class="project-image"/>
+                    <div class="project-content">
+                        <h3>VR Flight Simulator Model</h3>
+                        <p>CFD-validated experimental aircraft model in Microsoft Flight Sim VR with customized aerodynamic controls.</p>
+                        <div class="project-tags">
+                            <span class="tag">Blender</span>
+                            <span class="tag">CFD</span>
+                            <span class="tag">VR</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/custom_pen.jpeg" alt="Custom Pen" class="project-image"/>
+                    <div class="project-content">
+                        <h3>Custom Steel Pen</h3>
+                        <p>Designed and machined over 10+ iterations using manual lathe with self-taught single-point threading techniques.</p>
+                        <div class="project-tags">
+                            <span class="tag">Manual Machining</span>
+                            <span class="tag">Threading</span>
+                            <span class="tag">Steel</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -64,7 +155,7 @@
             <div class="experience-grid">
                 <div class="experience-card">
                     <div class="card-header">
-                        <img src="images/uf_mae_logo.png" alt="UF MAE" class="company-logo"/>
+                        <img src="images/uf_mae_logo.jpeg" alt="UF MAE" class="company-logo"/>
                         <div>
                             <h3>Teaching Assistant</h3>
                             <p class="company">Design and Manufacturing Lab, UF</p>
@@ -80,7 +171,7 @@
 
                 <div class="experience-card">
                     <div class="card-header">
-                        <img src="images/piper_aircraft_logo.png" alt="Piper Aircraft" class="company-logo"/>
+                        <img src="images/piper_aircraft_logo.jpeg" alt="Piper Aircraft" class="company-logo"/>
                         <div>
                             <h3>Powerplant & Mechanical Systems Engineering Intern</h3>
                             <p class="company">Piper Aircraft Inc.</p>
@@ -97,7 +188,7 @@
 
                 <div class="experience-card">
                     <div class="card-header">
-                        <img src="images/bike_bros_logo.png" alt="Bike Bros" class="company-logo"/>
+                        <img src="images/bike_bros_logo.jpeg" alt="Bike Bros" class="company-logo"/>
                         <div>
                             <h3>Founder & CEO</h3>
                             <p class="company">Bike Bros Gainesville</p>
@@ -109,97 +200,6 @@
                         <li>Built network of 5 mechanics to source, refurbish and resell vintage bicycles</li>
                         <li>Established sustainable supply chain promoting circular economy and accessibility</li>
                     </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section class="section projects-section">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            
-            <div class="projects-grid">
-                <div class="project-card">
-                    <img src="images/brake_analysis_project.png" alt="Brake Energy Analysis" class="project-image"/>
-                    <div class="project-content">
-                        <h3>Aircraft Brake Energy Prediction</h3>
-                        <p>TensorFlow-based predictive model analyzing 47,000+ sensor data points with custom pre-processing, 
-                        Savitsky-Golay filtering, and Mini-batch SGD optimization.</p>
-                        <div class="project-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">TensorFlow</span>
-                            <span class="tag">Pandas</span>
-                            <span class="tag">Matplotlib</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <img src="images/accompanist_app.png" alt="Accompanist Booking App" class="project-image"/>
-                    <div class="project-content">
-                        <h3>Accompanist Booking Platform</h3>
-                        <p>Full-stack application matching soloists with accompanist pianists through a bid-based booking system.</p>
-                        <div class="project-tags">
-                            <span class="tag">React</span>
-                            <span class="tag">TypeScript</span>
-                            <span class="tag">Supabase</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <img src="images/decision_matrix.png" alt="Car Decision Matrix" class="project-image"/>
-                    <div class="project-content">
-                        <h3>Dynamic Car Decision Matrix</h3>
-                        <p>Google Sheets tool with JavaScript implementing 3 piecewise scoring functions with sensitivity scaling 
-                        and linear regression for ranked recommendations.</p>
-                        <div class="project-tags">
-                            <span class="tag">JavaScript</span>
-                            <span class="tag">Google Sheets API</span>
-                            <span class="tag">Linear Regression</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <img src="images/air_engine.png" alt="Air Engine" class="project-image"/>
-                    <div class="project-content">
-                        <h3>CNC Air Engine</h3>
-                        <p>Programmed, CNC-machined and assembled 5 components for an air engine using Fusion360 CAM 
-                        and Haas VF-3 mill, earning ACE CNC certificate.</p>
-                        <div class="project-tags">
-                            <span class="tag">Fusion 360 CAM</span>
-                            <span class="tag">CNC Machining</span>
-                            <span class="tag">ACE Certified</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <img src="images/flight_sim_model.png" alt="Flight Simulator" class="project-image"/>
-                    <div class="project-content">
-                        <h3>VR Flight Simulator Model</h3>
-                        <p>CFD-validated experimental aircraft model in Microsoft Flight Sim VR with customized aerodynamic controls.</p>
-                        <div class="project-tags">
-                            <span class="tag">Blender</span>
-                            <span class="tag">CFD</span>
-                            <span class="tag">VR</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <img src="images/custom_pen.png" alt="Custom Pen" class="project-image"/>
-                    <div class="project-content">
-                        <h3>Custom Steel Pen</h3>
-                        <p>Designed and machined over 10+ iterations using manual lathe with self-taught single-point threading techniques.</p>
-                        <div class="project-tags">
-                            <span class="tag">Manual Machining</span>
-                            <span class="tag">Threading</span>
-                            <span class="tag">Steel</span>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
